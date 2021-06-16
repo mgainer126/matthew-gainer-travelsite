@@ -1,0 +1,226 @@
+.header {
+  display: flex;
+  background-color: #ffffff;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.header__list--name,
+.header__menu--underline,
+.header__menu {
+  margin-right: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header__menu--rmunderline {
+  text-decoration: none;
+  color: black;
+}
+.header__list--name {
+  margin-right: 60vw;
+  padding-left: 3rem;
+}
+
+.header__list--font {
+  color: #335576;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 550;
+}
+
+.header__menu--underline {
+  border-bottom-style: solid;
+  border-color: #db7a4e;
+}
+
+.hero {
+  display: flex;
+  background-color: #fefaf5;
+  height: 600px;
+}
+
+.hero--fontcolor {
+  color: #335576;
+}
+
+.hero--fontsize {
+  font-size: 30px;
+}
+
+.hero--fonttype {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero__image {
+  padding-right: 4rem;
+}
+.hero__CTA--backgroundcolour {
+  background-color: #db7a4e;
+}
+
+.hero__CTA--buttonshape {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  padding: 0;
+  border-radius: 40px;
+  width: 200px;
+  height: 25px;
+}
+
+.vacationSel__title--color {
+  color: #335576;
+}
+
+.vacationsSel__cards--liststyle {
+  list-style: none;
+}
+
+.vacationsSel__cards--rmunderline {
+  text-decoration: none;
+}
+
+.footer__sections--liststyle {
+  list-style: none;
+}
+
+.footer__sections--listtype {
+  display: inline-block;
+  padding: 0.3rem;
+}
+
+.footer__color {
+  background-color: #fefaf5;
+}
+
+.footer__fontinfo--color {
+  color: #335576;
+}
+
+.footer__fontinfo--size {
+  font-size: 12px;
+}
+
+.footer__fontinfosub--color {
+  color: #db7a4e;
+}
+
+.footer__fontinfosub--size {
+  font-size: 8px;
+}
+
+.vacationsSel__cards--listtype {
+  margin: 25px;
+  width: 200px;
+  height: 300px;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.2);
+}
+
+.hawaiimage {
+  background-image: url(../assets/images/Images/hawaii.jpg);
+  background-size: 200px 300px;
+}
+
+.icelandimage {
+  background-image: url(../assets/images/Images/iceland.jpg);
+  background-size: 200px 300px;
+}
+
+.greeceimage {
+  background-image: url(../assets/images/Images/greece.jpg);
+  background-size: 200px 300px;
+}
+
+.vacationsSel__cards--liststyle {
+  padding-left: 25%;
+}
+
+.vacationsSel__cards--text {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+.hero__content {
+  padding-top: 10rem;
+  padding-left: 3rem;
+  width: 100%;
+}
+
+.box1 {
+  width: 30rem;
+  height: 200px;
+  border-style: solid;
+}
+
+.box2 {
+  width: 30rem;
+  height: 200px;
+  border-style: solid;
+}
+
+.box1,
+.box2 {
+  display: inline-block;
+}
+
+.hero__listStyle {
+  list-style: none;
+}
+
+.heroImage {
+  padding-top: 5rem;
+  padding-left: 5rem;
+}
+
+.vacationsSel__alignment {
+  display: flex;
+  justify-content: center;
+}
+
+.vacations__title--alignment {
+  margin-left: 45px;
+}
+
+.footer__alignment {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.footer__itemSpace {
+  margin: 30px;
+}
+
+.font {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.font__Color {
+  color: #335576;
+}
+
+.footer__social1,
+.footer__social2,
+.footer__social3 {
+  margin-right: 1rem;
+}
+
+.bottom-right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  padding-top: 275px;
+}
+
+.alignment {
+  display: flex;
+  justify-content: center;
+}
+
+.fontwhite {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}

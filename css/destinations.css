@@ -1,0 +1,172 @@
+.font {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* HEADER SECTION */
+.header {
+  display: flex;
+  background-color: #ffffff;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.header__list--name,
+.header__menu--underline,
+.header__menu {
+  margin-right: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header__menu--rmunderline {
+  text-decoration: none;
+  color: black;
+}
+
+.header__list--name {
+  margin-right: 60vw;
+  padding-left: 3rem;
+}
+
+.header__list--font {
+  color: #335576;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 550;
+}
+
+.header__menu--underline {
+  border-bottom-style: solid;
+  border-color: #db7a4e;
+}
+
+/* HEADER SECTION */
+
+/* HERO SECTION */
+
+.hero--fontsize {
+  font-size: 50px;
+}
+
+.hero--fonttype {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hereo__Title--alignment {
+  padding-left: 125px;
+  padding-top: 5px;
+}
+
+/* Card Sizes */
+.vacationsSel__cards--listtype {
+  margin: 25px;
+  width: 250px;
+  height: 350px;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.hero__listStyle {
+  list-style: none;
+}
+
+.hero__demensionsalign {
+  width: 100vw;
+  height: 800px;
+}
+
+.heroImage--hawaii {
+  background-image: url(../assets/images/Images/hawaii.jpg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+.heroImage--iceland {
+  background-image: url(../assets/images/Images/iceland.jpg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+.heroImage--greece {
+  background-image: url(../assets/images/Images/greece.jpg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+.hero__vacationsSelalignment {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.itn__header {
+  font-weight: 600;
+  border-bottom-style: solid;
+}
+
+.vacationsSel__alignment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.int__Center {
+  display: flex;
+  justify-content: center;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.int__activity {
+  background-color: #fefaf5;
+}
+
+/* HERO SECTION */
+
+/* FOOTER SECTION */
+.footer__color {
+  background-color: #fefaf5;
+}
+
+.footer__fontinfo--color {
+  color: #335576;
+}
+
+.footer__fontinfo--size {
+  font-size: 12px;
+}
+
+.footer__fontinfosub--color {
+  color: #db7a4e;
+}
+
+.footer__fontinfosub--size {
+  font-size: 8px;
+}
+
+.footer__alignment {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.footer__itemSpace {
+  margin: 30px;
+}
+
+.footer__social1,
+.footer__social2,
+.footer__social3 {
+  margin-right: 1rem;
+}
+
+/* FOOTER SECTION */
+
+.alignment {
+  display: flex;
+  justify-content: center;
+}
+
+.fontwhite {
+  color: white;
+}
